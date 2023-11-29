@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda De Ropa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="./Imagenes/logo.PNG" />
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img class="logo-img" src="./Imagenes/logo.PNG" alt=""></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./Imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="./Imagenes/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Tienda Noga</h1>
+                <p>Estrena las mejores prendas</p>
+                <a href="#" class="btn-1">Mas Informacion</a>
+            </div>
+        </div>
+    </header>
+    <h1>Encontra Las Mejores Prendas A Excelentes Precios</h1>
+    <h3>Visita Nuestras secciones</h3>
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./Imagenes/mochila.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Mochilas</h3>
+                <a href="#" class="btn-2">Mas Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./Imagenes/zapatilla.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Calzados</h3>
+                <a href="#" class="btn-2">Mas Informacion</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./Imagenes/remera.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Indumentaria</h3>
+                <a href="#" class="btn-2">Mas Informacion</a>
+            </div>
+        </div>
+    </section>
+
+    <h1>Nuestras Ofertas</h1>
+    <div class="products container">
+        <div class="product-grid">
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="Imagenes/remera1.jpg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Remera Manga Corta Hombre</p>
+                    <p class="product-grid-price">$10.000</p>
+
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+
+                </div>
+
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/remera2.jpg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Remera Manga Corta Dama</p>
+                    <p class="product-grid-price">$10.000</p>
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+
+            </div>
+
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/pantalon.jpg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Pantalon Jean Dama</p>
+                    <p class="product-grid-price">$8.000</p>
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/zapatilla1.jpg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Zapatillas Adidas Hombre</p>
+                    <p class="product-grid-price">$30.000</p>
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/short-hombre.jpeg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Short Hombre</p>
+                    <p class="product-grid-price">$28.000</p>
+
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/short-mujer.jpg" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Short Dama</p>
+                    <p class="product-grid-price">$25.000</p>
+
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/campera.png" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Campera Cuero HOmbre</p>
+                    <p class="product-grid-price">$50.000</p>
+
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product-grid-item">
+                <div class="product-grid-imagen">
+                    <img src="./Imagenes/campera2.png" alt="">
+                </div>
+
+                <div class="product-grid-info">
+                    <p class="product-grid-name">Campera Cuero Dama</p>
+                    <p class="product-grid-price">$30.000</p>
+
+                    <a href="#" class="product-grid-btn btn-default" data-btn-action="add-btn-cart"
+                        data-modal="#jsModalCarrito">Agregar al carrito</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content container">
+                <div class="link">
+                    <h3>Síguenos En Nuestras Redes Para Más Contenido </h3>
+                    <ul>
+                        <li><a href="#"></h3><img src="./Imagenes/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="./Imagenes/instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="./Imagenes/twitter.png" alt=""></a></li>
+                        <h3>&copy; 2023 Mi Página. Todos los derechos reservados.</h3>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+               
+        <!--CARRITO-->
+
+        <div class="modal" id="jsModalCarrito">
+            <div class="modal__container">
+                <button type="button" class="modal__close fa-solid fa-xmark jsModalClose "></button>
+
+                <div class="modal__info">
+                    <div class="modal__header">
+                        <h2><i class="fa-brands fa-opencart"></i>Carrito</h2>
+                    </div>
+
+                    <div class="modal__body">
+                        <div class="modal__list">
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/remera1.jpg" alt="remera">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Remera</p>
+                                    <p><strong>$10.000</strong></p>
+                                </div>
+                            </div>
+
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/remera2.jpg" alt="remera">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Remera</p>
+                                    <p><strong>$10.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/pantalon.jpg" alt="pantalon">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Pantalon</p>
+                                    <p><strong>$8.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/zapatilla1.jpg" alt="zapatilla">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Zapatillas</p>
+                                    <p><strong>$30.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/short-hombre.jpeg" alt="short">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Short</p>
+                                    <p><strong>$28.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/short-mujer.jpg" alt="short">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Short</p>
+                                    <p><strong>$25.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/campera.png" alt="short">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Campera Cuero</p>
+                                    <p><strong>$50.000</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="./Imagenes/campera2.png" alt="short">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>Campera Dama</p>
+                                    <p><strong>$30.000</strong></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal__footer">
+                        <div class="modal__list-price">
+                            <h4 class="modal__total-cart"> Total: $0.000</h4>
+                        </div>
+
+                        <div class="modal__btns">
+                            <a href="#" class="btn-primary">Comprar Ahora</a>
+                            <button id="vaciarCarritoBtn" class="btn-default">Vaciar Carrito</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
