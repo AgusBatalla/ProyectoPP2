@@ -445,3 +445,18 @@ img {
     display: block;
     margin-bottom: 10px;
 }
+
+.btn-remove-product {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /
+}
+
+.btn-remove-product:hover {
+    background-color: #8f8f8f; 
+}
